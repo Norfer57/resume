@@ -7,8 +7,11 @@
     <meta name="keywords" content="html.css.js cours resume"> 
     <title>Резюме</title>
     <link rel="stylesheet" href="CSS.css">
+
 </head>
+
 <body>
+
     <div class="container">
         <main class="info">
                 <img src="foto.jpg"  alt="ФОТО" class="avatar">
@@ -82,12 +85,26 @@
                 <li>
                     <a href="#">result-university</a>
                 </li>
-                
+  
             </ul>
+            
+
 
 
 
         </section>
+
+    <section class="card skills">
+  <h2>Навыки</h2>
+  <div class="skills-grid">
+    <div class="skill">HTML5</div>
+    <div class="skill">CSS3</div>
+    <div class="skill">JavaScript</div>
+    <div class="skill">React (учу)</div>
+  </div>
+</section>
+
+        <button class="show-phone">Показать телефон</button>
 
         
 
@@ -122,6 +139,10 @@
     </div>
 
     
-
+    <script>
+  document.querySelector('.show-phone').addEventListener('click', function() {
+    alert('+7 123 456-78-90');
+  });
+</script>
 </body>
 </html>
